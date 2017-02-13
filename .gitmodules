@@ -1,3 +1,6 @@
 [submodule "lib/ArduinoJson"]
 	path = lib/ArduinoJson
 	url = https://github.com/bblanchon/ArduinoJson.git
+[submodule "lib/IRremoteESP8266"]
+	path = lib/IRremoteESP8266
+	url = https://github.com/sebastienwarin/IRremoteESP8266.git
