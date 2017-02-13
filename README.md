@@ -1,6 +1,8 @@
 # ESPEasy-platformio
 
-This is an ESPEasy build environment for platformio that you can use to quickly compile ESPEasy with platformio.
+This is an ESPEasy build environment that you can use to quickly compile ESPEasy with http://platformio.org
+
+I think this is much easier than using the Arduino GUI.
 
 It uses git submodules to upstream repositories where posible.
 
