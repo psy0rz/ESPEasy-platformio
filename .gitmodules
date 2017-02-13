@@ -4,3 +4,6 @@
 [submodule "lib/IRremoteESP8266"]
 	path = lib/IRremoteESP8266
 	url = https://github.com/sebastienwarin/IRremoteESP8266.git
+[submodule "src"]
+	path = src
+	url = https://github.com/psy0rz/ESPEasy.git
