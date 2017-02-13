@@ -6,7 +6,7 @@ It uses git submodules to upstream repositories where posible.
 
 ## Steps
 
-1. Clone the repository with the --recursive option:
+### 1. Clone the repository with the --recursive option:
 ```
 psy@psypad ~ % git clone --recursive https://github.com/psy0rz/ESPEasy-platformio.git
 Cloning into 'ESPEasy-platformio'...
@@ -42,13 +42,13 @@ Checking connectivity... done.
 Submodule path 'src': checked out '5fe033bef882136e2860e6536d33494f13b0325d'
 ```
 
-2. Start atom:
+### 2. Start atom:
 
 ```
 psy@psypad ~ % atom ESPEasy-platformio 
 ```
 
-3. Press F7 to build and upload.
+### 3. Press F7 to build and upload.
 
 Easy isnt it? :)
 
