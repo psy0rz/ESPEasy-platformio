@@ -16,6 +16,7 @@ deploy:
   file: ".pioenvs/esp12e/firmware.bin"
   skip_cleanup: true
   on:
-    repo: psy0rz/ESPEasy-platformio
+      tags: true
+    # repo: psy0rz/ESPEasy-platformio
 notifications:
   email: false
