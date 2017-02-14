@@ -17,3 +17,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: psy0rz/ESPEasy-platformio
+notifications:
+  email: false
