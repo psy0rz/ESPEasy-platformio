@@ -17,6 +17,7 @@ if os.path.isfile(version_file):
     with open(version_file,'r') as fh:
         prev_version_h=fh.read()
 
+
 if prev_version_h!=version_h:
     with open(version_file,'w') as fh:
         fh.write(version_h)
