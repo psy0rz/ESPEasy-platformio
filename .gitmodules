@@ -6,4 +6,4 @@
 	url = https://github.com/sebastienwarin/IRremoteESP8266.git
 [submodule "src"]
 	path = src
-	url = git@github.com:psy0rz/ESPEasy.git
+	url = https://github.com/psy0rz/ESPEasy.git
