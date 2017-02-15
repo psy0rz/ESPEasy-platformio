@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mv .pioenvs/dev/firmware.bin firmware_dev.bin
+mv .pioenvs/test/firmware.bin firmware_test.bin
+mv .pioenvs/normal/firmware.bin firmware.bin
+mv .pioenvs/mini/firmware.bin firmware_mini.bin
