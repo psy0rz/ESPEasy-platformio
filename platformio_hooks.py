@@ -3,6 +3,9 @@ import os.path
 
 #determine git version string
 version=subprocess.check_output(["git", "describe"]).rstrip()
+
+print("ESPeasy git-version: "+version)
+
 version_file="src/Version.ino"
 
 #create headerfile
