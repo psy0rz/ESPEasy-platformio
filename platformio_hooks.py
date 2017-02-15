@@ -2,16 +2,15 @@ import subprocess
 import os.path
 
 #determine git version string
-version=subprocess.check_output(["git", "describe"]).rstrip()
+version=subprocess.check_output(["git", "describe", "--long", "--dirty=-changed"]).rstrip()
 
 print("ESPeasy git-version: "+version)
 
-version_file="src/Version.ino"
+version_file="src/Version.h"
 
 #create headerfile
 version_h="""
-#undef BUILD_NOTES
-#define BUILD_NOTES "{}"
+#define BUILD_GIT "{}"
 """.format(version)
 
 #only overwrite file if version changed to prevent useless rebuilds
