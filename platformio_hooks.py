@@ -2,7 +2,8 @@ import subprocess
 import os.path
 
 #determine git version string
-version=subprocess.check_output(["git", "describe", "--long", "--dirty=-changed"]).rstrip()
+# version=subprocess.check_output(["git", "describe", "--long", "--dirty=-changed"]).rstrip()
+version=subprocess.check_output(["git", "describe", "--long"]).rstrip()
 
 print("ESPeasy git-version: "+version)
 

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git submodule update --remote src
+git add src 
+git commit -m 'updated ESPeasy submodule'
+git push
