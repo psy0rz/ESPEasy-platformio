@@ -6,7 +6,7 @@ I think this is much easier than using the Arduino GUI.
 
 It uses git submodules to upstream repositories where posible.
 
-More info: https://github.com/psy0rz/ESPEasy
+More info: https://github.com/psy0rz/ESPEasy/blob/master/README.md
 
 Automated builds with Travis: https://travis-ci.org/psy0rz/ESPEasy-platformio
 
