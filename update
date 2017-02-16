@@ -1,6 +1,14 @@
 #!/bin/bash
 
+set -e
+
+cd src
+VER=`git rev-parse HEAD`
+cd ..
+
+
+echo "Running platformio update script"
 git submodule update --remote src
 git add src 
-git commit -m 'updated ESPeasy submodule'
+git commit -m "updated ESPeasy submodule to $VER"
 git push
