@@ -4,7 +4,7 @@ This is an ESPEasy build environment that you can use to quickly compile ESPEasy
 
 We also use this repository to automaticly build and release firmware.bin files for ESPEasy.
 
-Automated build status: [![Build Status](https://travis-ci.org/letscontrolit/ESPEasy-platformio.svg?branch=master)](https://travis-ci.org/letscontrolit/ESPEasy-platformio)
+Current automated build status: [![Build Status](https://travis-ci.org/letscontrolit/ESPEasy-platformio.svg?branch=master)](https://travis-ci.org/letscontrolit/ESPEasy-platformio)
 
 ## Steps
 
