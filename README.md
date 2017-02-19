@@ -2,13 +2,9 @@
 
 This is an ESPEasy build environment that you can use to quickly compile ESPEasy with http://platformio.org
 
-I think this is much easier than using the Arduino GUI.
+We also use this repository to automaticly build and release firmware.bin files for ESPEasy.
 
-It uses git submodules to upstream repositories where posible.
-
-More info: https://github.com/psy0rz/ESPEasy/blob/master/README.md
-
-Automated builds with Travis: https://travis-ci.org/psy0rz/ESPEasy-platformio
+Automated build status: [![Build Status](https://travis-ci.org/letscontrolit/ESPEasy-platformio.svg?branch=master)](https://travis-ci.org/letscontrolit/ESPEasy-platformio)
 
 ## Steps
 
