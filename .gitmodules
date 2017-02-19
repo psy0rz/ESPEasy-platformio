@@ -7,3 +7,5 @@
 [submodule "src"]
 	path = src
 	url = https://github.com/letscontrolit/ESPEasy.git
+	pushurl = git@github.com:letscontrolit/ESPEasy.git
+
