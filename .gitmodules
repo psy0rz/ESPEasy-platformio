@@ -8,3 +8,6 @@
 	path = src
 	url = https://github.com/letscontrolit/ESPEasy.git
 
+[submodule "lib/Adafruit_NeoPixel"]
+	path = lib/Adafruit_NeoPixel
+	url = https://github.com/adafruit/Adafruit_NeoPixel.git
