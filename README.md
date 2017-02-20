@@ -8,9 +8,9 @@ Current automated build status: [![Build Status](https://travis-ci.org/letscontr
 
 ## Steps
 
-### 1. Clone the repository with the --recursive option:
+### 1. Clone the repository with the following options:
 ```
-$ git clone --recursive https://github.com/psy0rz/ESPEasy-platformio.git
+$ git clone --recursive https://github.com/letscontrolit/ESPEasy-platformio.git
 ```
 
 ### 2. Start atom:
