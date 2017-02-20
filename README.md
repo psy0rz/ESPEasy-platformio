@@ -10,7 +10,7 @@ The src directory automaticly uses the real ESPEasy repository.
 
 ## Steps
 
-### 1. Clone the repository with the --recursive option:
+### 1. Clone the repository with these options:
 ```
 $ git clone --recursive -b mega https://github.com/letscontrolit/ESPEasy-platformio.git
 ```
