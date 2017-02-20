@@ -2,8 +2,6 @@
 
 This is an ESPEasy build environment for the next 2.x.x release of ESPEasy (formally called ESPEasyMega).
 
-We also use this repository to automaticly build and release firmware.bin files for ESPEasy.
-
 Current automated build status: [![Build Status](https://travis-ci.org/letscontrolit/ESPEasy-platformio.svg?branch=mega)](https://travis-ci.org/letscontrolit/ESPEasy-platformio)
 
 The src directory automaticly uses the real ESPEasy repository.
