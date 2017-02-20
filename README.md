@@ -1,10 +1,12 @@
 # ESPEasy-platformio
 
-This is an ESPEasy build environment for the next 2.x.x release of ESPEasy (formally called ESPEasyMega).
+This is an ESPEasy build environment for the next 2.0.0 release of ESPEasy (formally called ESPEasyMega).
 
 Current automated build status: [![Build Status](https://travis-ci.org/letscontrolit/ESPEasy-platformio.svg?branch=mega)](https://travis-ci.org/letscontrolit/ESPEasy-platformio)
 
-The src directory automaticly uses the real ESPEasy repository.
+The src is pointing to the mega-branch in the normal ESPEasy repository (its a git submodule), so thats where the actual sourcecode is.
+
+Issues that still need to be fixed before releasing: https://github.com/letscontrolit/ESPEasy/milestone/1
 
 ## Steps
 
