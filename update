@@ -8,7 +8,9 @@ cd ..
 
 
 echo "Running platformio update script"
-git submodule update --remote src
+cd src
+git checkout mega
+cd ..
 git add src 
 git commit -m "updated ESPeasy submodule to $VER"
 git push
