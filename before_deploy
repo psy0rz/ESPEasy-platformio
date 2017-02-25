@@ -3,7 +3,7 @@
 VERSION=$(git describe)
 echo "Creating release archives for $VERSION ..."
 #binaries
-cp .pioenvs/mini_512/firmware.bin dist/"ESPEasy_$VERSION""_mini_512.bin"
+# cp .pioenvs/mini_512/firmware.bin dist/"ESPEasy_$VERSION""_mini_512.bin"
 
 cp .pioenvs/normal_1024/firmware.bin dist/"ESPEasy_$VERSION""_normal_1024.bin"
 cp .pioenvs/normal_4096/firmware.bin dist/"ESPEasy_$VERSION""_normal_4096.bin"

@@ -5,6 +5,7 @@ sudo: false
 cache:
   directories:
   - "~/.platformio"
+  - "./.pioenvs"
 install:
 - pip install -U platformio
 script:
