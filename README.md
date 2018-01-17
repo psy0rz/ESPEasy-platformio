@@ -1,1 +1,1 @@
-# THIS REPOSITORY IS OBSOLETE, GO HERE: https://github.com/letscontrolit/ESPEasy-platformio
+# THIS REPOSITORY IS OBSOLETE, GO HERE: https://github.com/letscontrolit/ESPEasy
